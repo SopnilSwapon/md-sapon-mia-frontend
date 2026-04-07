@@ -4,8 +4,8 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
-import GradientBorderButton from "./GradientBorderButton";
-import AppButton from "./AppButton";
+import GradientBorderButton from "./shared/GradientBorderButton";
+import AppButton from "./shared/AppButton";
 import { Play } from "lucide-react";
 import { FaPlay } from "react-icons/fa";
 import Image from "next/image";

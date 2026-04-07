@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
-import AppButton from "./AppButton";
-import GradientBorderButton from "./GradientBorderButton";
+import AppButton from "./shared/AppButton";
+import GradientBorderButton from "./shared/GradientBorderButton";
 
 export default function BannerSec() {
   return (

@@ -5,7 +5,7 @@ import { Navigation } from "swiper/modules";
 import { useRef } from "react";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import GradientBorderButton from "./GradientBorderButton";
+import GradientBorderButton from "./shared/GradientBorderButton";
 
 export default function TestimonialSection() {
   const prevRef = useRef(null);
@@ -22,7 +22,7 @@ export default function TestimonialSection() {
     {
       name: "Mark Davidson",
       role: "Software Developer",
-      text: "I never realized how much distractions I never realized how much distractions were holding me back. After applying the deep work techniques, I feel more in control of my time and energy.",
+      text: "I never realized how much distractions I never realized how much distractions were holding me back. After applying the deep work techniques, I feel more in control of my time, energy & some money.",
       image: "/images/student3.png",
     },
     {
@@ -101,7 +101,7 @@ export default function TestimonialSection() {
                       alt=""
                       width={800}
                       height={700}
-                      className="w-full min-h-62.25"
+                      className="w-full min-h-61.25"
                     />
 
                     <div className="absolute inset-0 flex items-center justify-center">

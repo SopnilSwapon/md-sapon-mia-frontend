@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import GradientBorderButton from "./GradientBorderButton";
+import GradientBorderButton from "./shared/GradientBorderButton";
 import Image from "next/image";
 
 export default function PricingSection() {

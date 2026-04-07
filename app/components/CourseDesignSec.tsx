@@ -1,5 +1,5 @@
 import Image from "next/image";
-import GradientBorderButton from "./GradientBorderButton";
+import GradientBorderButton from "./shared/GradientBorderButton";
 
 export default function CourseDesign() {
   const items = [

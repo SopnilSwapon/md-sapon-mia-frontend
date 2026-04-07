@@ -1,36 +1,160 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Simple Landing Page
 
-## Getting Started
+A modern, pixel-perfect Simple landing page built with **Next.js, Typescript, Tailwind CSS, shadcn/ui, , and Swiper.js**.
 
-First, run the development server:
+This project focuses on **clean UI, reusable components, and responsive design**.
+
+---
+
+## 🚀 Live Demo :
+
+👉 https://md-sapon-mia-frontend.vercel.app/
+
+## ✨ Features
+
+- 🎯 Modern Simple Landing UI
+- ⚡ Built with Next.js (App Router)
+- 🎨 Tailwind CSS + shadcn/ui
+- 🎠 Testimonial carousel (Swiper.js)
+- 📱 Fully responsive (mobile → desktop)
+- 🔥 Gradient borders & glow effects
+- 🧩 Reusable components
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Swiper.js**
+- **Lucide React Icons**
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+  page.tsx
+  layout.tsx
+
+components/
+  AppNavbar.tsx
+  Hero.tsx
+  VideoSection.tsx
+  FocusSection.tsx
+  TimelineSection.tsx
+  CourseSection.tsx
+  TestimonialSection.tsx
+  PricingSection.tsx
+  FooterSection.tsx
+  GradientBorderButton.tsx
+
+components/ui/
+  (shadcn components)
+
+public/
+  images/
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+# Clone repo
+https://github.com/SopnilSwapon/md-sapon-mia-frontend
+# Enter project
+cd md-sapon-mia-frontend
+
+# Install dependencies
+npm install
+```
+
+---
+
+## ▶️ Run the Project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 Open: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Dependencies
 
-## Learn More
+```bash
+npm install swiper lucide-react
+npx shadcn@latest init
+npx shadcn@latest add accordion button card
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 UI Sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ Responsive Navbar
+- ✅ Hero Section (CTA + animated badge)
+- ✅ Video Section (custom background)
+- ✅ Focus / Problem Section
+- ✅ Timeline (gradient line UI)
+- ✅ Course Curriculum (Accordion)
+- ✅ Testimonials (Swiper Carousel)
+- ✅ Pricing Section
+- ✅ Footer + CTA Card
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔥 Highlights
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ✨ Custom gradient borders
+- 🎯 Clean accordion interaction (shadcn)
+- 🎠 Advanced Swiper carousel layout
+- 🌊 Smooth UI animations
+- 📐 Pixel-perfect SaaS design
+
+---
+
+## 🚀 Live Demo :
+
+👉 https://md-sapon-mia-frontend.vercel.app/
+
+---
+
+## 🧠 Key Learnings
+
+- Building scalable UI with **component-based architecture**
+- Advanced styling with **Tailwind + gradients**
+- Creating reusable UI components
+- Implementing **responsive layouts**
+- Integrating third-party libraries (Swiper)
+
+---
+
+## 🚀 Future Improvements
+
+- 🔐 Authentication system
+- 🎬 Video modal popup
+- 🌐 Multi-language support (i18n)
+- 📊 Analytics integration
+- 💳 Payment integration (Stripe)
+
+---
+
+## 👨‍💻 Author
+
+**Md. Sapon Mia**
+Frontend Developer
+
+📧 [sopnilswapon1@gmail.com](mailto:sopnilswapon1@gmail.com)
+🔗 GitHub: https://github.com/sopnilswapon1
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
