@@ -3,13 +3,12 @@ import Image from "next/image";
 export default function VideoSection() {
   return (
     <section
-      className="relative pb-24 px-6 overflow-hidden "
+      className="relative pb-24 px-6 rounded-xl overflow-hidden "
       style={{
         background:
           "radial-gradient(ellipse at center, #1a3a8f 10%, #0d1f5c 80%, #060d2e 100%)",
       }}
     >
-      {/* Horizontal scan lines overlay */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -19,7 +18,6 @@ export default function VideoSection() {
         }}
       />
 
-      {/* Side vignette glow */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -30,7 +28,6 @@ export default function VideoSection() {
       />
 
       <div className="relative mx-auto" style={{ zIndex: 3 }}>
-        {/* Video Thumbnail */}
         <div className="relative max-w-270 mt-20 mx-auto">
           <Image
             src="/images/video.png"

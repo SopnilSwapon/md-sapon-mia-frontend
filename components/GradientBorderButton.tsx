@@ -1,8 +1,6 @@
-"use client";
-
 import React from "react";
 
-type Props = {
+type TProps = {
   children: React.ReactNode;
   className?: string;
 };
@@ -10,7 +8,7 @@ type Props = {
 export default function GradientBorderButton({
   children,
   className = "",
-}: Props) {
+}: TProps) {
   return (
     <button
       className={`relative px-6 py-3 cursor-pointer rounded-md text-white bg-[#171B21] ${className}`}

@@ -9,7 +9,6 @@ export default function StruggleAndNoWorriesSection() {
         <GradientBorderButton>
           🔵 &nbsp; Are Distractions Holding You Back?
         </GradientBorderButton>
-        {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-semibold leading-tight mt-10 text-gray-300">
           If you struggle to focus, feel overwhelmed <br /> by end
           <span className="text-gray-500">
@@ -55,11 +54,9 @@ export default function StruggleAndNoWorriesSection() {
         </div>
 
         <div className="bg-[#0f141a] rounded-2xl p-6 relative">
-          {/* Top badge */}
           <div className="flex justify-between items-center mb-6">
             <GradientBorderButton>🔵 &nbsp; No worries</GradientBorderButton>
 
-            {/* avatars */}
             <div>
               <Image
                 src="/images/no-worries-group.png"
@@ -70,7 +67,6 @@ export default function StruggleAndNoWorriesSection() {
             </div>
           </div>
           <div className="relative md:absolute md:bottom-20">
-            {/* text */}
             <p className="text-gray-400 text-sm mb-8.5">
               The ability to concentrate <br /> deeply is the ultimate <br />{" "}
               productivity hack

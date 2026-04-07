@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
 import GradientBorderButton from "./GradientBorderButton";
 import Image from "next/image";
@@ -9,7 +7,6 @@ export default function PricingSection() {
     <section className="bg-black text-white py-16 px-4">
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-[#0f141a] rounded-2xl p-10 border border-white/5 relative overflow-hidden">
-          {/* glow */}
           <div className="absolute top-0 left-0 w-40 h-40" />
 
           <GradientBorderButton>🔵 &nbsp; Introducing</GradientBorderButton>
@@ -22,7 +19,6 @@ export default function PricingSection() {
             What extra you will get if you enroll now
           </p>
 
-          {/* list */}
           <div className="space-y-6">
             {[
               "Bonus: 1:1 coaching session to boost focus.",

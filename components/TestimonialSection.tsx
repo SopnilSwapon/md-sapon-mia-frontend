@@ -1,10 +1,9 @@
 "use client";
-
-import Image from "next/image";
+import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { useRef } from "react";
-import "swiper/css";
+import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import GradientBorderButton from "./GradientBorderButton";
 
@@ -46,7 +45,6 @@ export default function TestimonialSection() {
         <GradientBorderButton>🔵 &nbsp;Testimonials</GradientBorderButton>
       </div>
       <div>
-        {/* 🔥 TOP ROW */}
         <h2 className="text-4xl text-center mb-26 font-semibold text-gray-200">
           Real Results from <br /> Real People
         </h2>
@@ -58,7 +56,7 @@ export default function TestimonialSection() {
             </p>
           </div>
 
-          {/* 🔥 Custom arrows (top-right) */}
+          {/* Custom navigate buttons */}
           <div className="flex gap-3">
             <button
               ref={prevRef}
@@ -75,7 +73,6 @@ export default function TestimonialSection() {
           </div>
         </div>
 
-        {/* 🔥 SWIPER */}
         <Swiper
           onBeforeInit={(swiper) => {
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -96,7 +93,6 @@ export default function TestimonialSection() {
         >
           {data.map((item, i) => (
             <SwiperSlide key={i}>
-              {/* CARD */}
               <div className="bg-[#0f141a] border border-blue-500/20 rounded-2xl p-6 h-full">
                 {item.video ? (
                   <div className="relative rounded-xl overflow-hidden">
@@ -105,10 +101,9 @@ export default function TestimonialSection() {
                       alt=""
                       width={800}
                       height={700}
-                      className="w-full min-h-[249px]"
+                      className="w-full min-h-62.25"
                     />
 
-                    {/* play button */}
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="w-14 h-14 rounded-full bg-white text-blue-600 flex items-center justify-center">
                         ▶

@@ -1,6 +1,4 @@
 "use client";
-
-import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import AppButton from "./AppButton";
 import GradientBorderButton from "./GradientBorderButton";
@@ -8,28 +6,22 @@ import GradientBorderButton from "./GradientBorderButton";
 export default function BannerSec() {
   return (
     <section className="relative text-center py-24 px-6 bg-black text-white overflow-hidden">
-      {/* Gradient background */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,80,255,0.3),transparent_60%)]" />
+      <div className="absolute inset-0" />
 
       <div className="relative z-10 max-w-3xl mx-auto">
-        {/* Badge */}
-
         <GradientBorderButton>
           🔵&nbsp; <Countdown />
         </GradientBorderButton>
 
-        {/* Title */}
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-5 mt-6">
           Master Focus & Get <br /> More Done in Less Time
         </h1>
 
-        {/* Subtitle */}
         <p className="text-gray-400 mb-8">
           A step-by-step system to eliminate procrastination, train your <br />{" "}
           brain for deep work, and boost productivity effortlessly.
         </p>
 
-        {/* Buttons */}
         <div className="flex justify-center gap-4">
           <AppButton title="Enroll now" />
           <AppButton
@@ -43,7 +35,6 @@ export default function BannerSec() {
 }
 
 function Countdown() {
-  // set your target time here
   const targetDate = new Date();
   targetDate.setDate(targetDate.getDate() + 5);
   targetDate.setHours(targetDate.getHours() + 2);

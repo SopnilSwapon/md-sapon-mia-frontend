@@ -33,14 +33,11 @@ export default function CourseDesign() {
       </h2>
 
       <div className="max-w-sm mx-auto flex gap-15">
-        {/* LEFT SIDE */}
         <div className="flex flex-col items-center w-4 shrink-0 pt-2">
           {items.map((_, i) => (
             <div key={i} className="flex flex-col items-center flex-1">
-              {/* dot */}
               <div className="w-3 h-3 mt-2 rounded-full bg-[#3b6ef6] shadow-[0_0_10px_#3b6ef6]" />
 
-              {/* ALWAYS line (including last one) */}
               <div
                 className="w-0.5 flex-1 mt-2"
                 style={{
@@ -52,7 +49,6 @@ export default function CourseDesign() {
           ))}
         </div>
 
-        {/* RIGHT SIDE */}
         <div className="flex flex-col flex-1 mt-12">
           {items.map((item, i) => (
             <div key={i} className="flex items-start gap-5 pb-12">

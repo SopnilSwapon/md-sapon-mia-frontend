@@ -7,6 +7,7 @@ import PricingSection from "@/components/PricingSection";
 import StruggleToFocusSec from "@/components/StruggleAndNoWorriesSection";
 import TestimonialSection from "@/components/TestimonialSection";
 import VideoSection from "@/components/VideoSection";
+
 export default function Home() {
   return (
     <main className="bg-black min-h-screen">

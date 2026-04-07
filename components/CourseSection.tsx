@@ -1,16 +1,14 @@
-"use client";
-
 import {
   Accordion,
   AccordionItem,
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
+import GradientBorderButton from "./GradientBorderButton";
+import AppButton from "./AppButton";
 import { Play } from "lucide-react";
 import { FaPlay } from "react-icons/fa";
-import AppButton from "./AppButton";
 import Image from "next/image";
-import GradientBorderButton from "./GradientBorderButton";
 
 export default function CourseSection() {
   return (
@@ -21,16 +19,13 @@ export default function CourseSection() {
             🔵 &nbsp; Course Curriculum
           </GradientBorderButton>
         </div>
-        {/* Heading */}
         <h2 className="text-center text-3xl md:text-4xl font-semibold mb-16 text-gray-200">
           Mastering Deep Work: A Structured <br />
           Path to Peak Productivity
         </h2>
 
         <div className="grid md:grid-cols-2 gap-10">
-          {/* LEFT */}
           <Accordion defaultValue={["item-1"]} className="space-y-4">
-            {/* Module 1 */}
             <AccordionItem
               value="item-1"
               className="border-b border-blue-500/20"
@@ -86,7 +81,6 @@ export default function CourseSection() {
               </AccordionContent>
             </AccordionItem>
 
-            {/* Other modules */}
             {[
               "Module 2: Building Your Deep Work Routine",
               "Module 3: Eliminating Procrastination",
@@ -113,7 +107,6 @@ export default function CourseSection() {
             ))}
           </Accordion>
 
-          {/* RIGHT CARD (unchanged) */}
           <div className="bg-[#0f141a] rounded-2xl p-6 border border-blue-500/20 shadow-[0_0_40px_rgba(36,102,242,0.1)]">
             <h3 className="text-xl font-semibold mb-6">
               Not only video lessons!
