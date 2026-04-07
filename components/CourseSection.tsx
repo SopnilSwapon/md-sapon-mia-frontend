@@ -15,7 +15,7 @@ import GradientBorderButton from "./GradientBorderButton";
 export default function CourseSection() {
   return (
     <section className="bg-black text-white py-24 px-6">
-      <div className="max-w-6xl mx-auto">
+      <div>
         <div className="flex justify-center mb-8">
           <GradientBorderButton>
             🔵 &nbsp; Course Curriculum

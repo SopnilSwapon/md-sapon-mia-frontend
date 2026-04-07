@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function PricingSection() {
   return (
-    <section className="bg-black text-white py-16 px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+    <section className="bg-black text-white py-16 px-4">
+      <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-[#0f141a] rounded-2xl p-10 border border-white/5 relative overflow-hidden">
           {/* glow */}
           <div className="absolute top-0 left-0 w-40 h-40" />

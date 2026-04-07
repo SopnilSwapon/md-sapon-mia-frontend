@@ -1,3 +1,4 @@
+import AppFooter from "@/components/AppFooter";
 import AppNavbar from "@/components/AppNavbar";
 import BannerSec from "@/components/Banner";
 import CourseDesignSection from "@/components/CourseDesignSec";
@@ -17,6 +18,7 @@ export default function Home() {
       <CourseSection />
       <TestimonialSection />
       <PricingSection />
+      <AppFooter />
     </main>
   );
 }

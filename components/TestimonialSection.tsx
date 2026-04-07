@@ -16,14 +16,14 @@ export default function TestimonialSection() {
     {
       name: "Alex Carter",
       role: "Freelance Designer",
-      text: "As someone who juggles multiple projects, staying focused was always a challenge. This course gave me the tools to cut through distractions and work with absolute clarity. My productivity has never been better!",
+      text: "As someone who juggles multiple projects, staying focused was always a challenge. This course gave me the tools to cut through distractions and work with absolute clarity & security",
       image: "/images/student1.png",
     },
 
     {
       name: "Mark Davidson",
       role: "Software Developer",
-      text: "I never realized how much distractions I never realized how much distractions were holding me back. After applying the deep work techniques, I feel more in control of my time and energy. My efficiency has doubled times",
+      text: "I never realized how much distractions I never realized how much distractions were holding me back. After applying the deep work techniques, I feel more in control of my time and energy.",
       image: "/images/student3.png",
     },
     {
@@ -35,17 +35,17 @@ export default function TestimonialSection() {
     {
       name: "Daniel Davidson",
       role: "Software Developer",
-      text: "I never realized how much distractions I never realized how much distractions were holding me back. After applying the deep work techniques, I feel more in control of my time and energy. My efficiency has doubled!  I feel more in control of my time and energy.",
+      text: "I never realized how much distractions I never realized how much distractions were holding me back. After applying the deep work techniques, I feel more in control of my time and energy.",
       image: "/images/student2.png",
     },
   ];
 
   return (
-    <section className="bg-black text-white py-24 px-6">
+    <section className="bg-black text-white py-24 px-4">
       <div className="flex justify-center mb-8">
         <GradientBorderButton>🔵 &nbsp;Testimonials</GradientBorderButton>
       </div>
-      <div className="max-w-6xl mx-auto">
+      <div>
         {/* 🔥 TOP ROW */}
         <h2 className="text-4xl text-center mb-26 font-semibold text-gray-200">
           Real Results from <br /> Real People
@@ -77,10 +77,6 @@ export default function TestimonialSection() {
 
         {/* 🔥 SWIPER */}
         <Swiper
-          //   modules={[Navigation]}
-          //   centeredSlides
-          //   slidesPerView={2.5}
-          //   spaceBetween={20}
           onBeforeInit={(swiper) => {
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             //@ts-ignore
@@ -109,7 +105,7 @@ export default function TestimonialSection() {
                       alt=""
                       width={800}
                       height={700}
-                      className="w-full min-h-[272px]"
+                      className="w-full min-h-[249px]"
                     />
 
                     {/* play button */}
