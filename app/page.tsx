@@ -3,6 +3,7 @@ import BannerSec from "@/components/Banner";
 import CourseDesignSection from "@/components/CourseDesignSec";
 import CourseSection from "@/components/CourseSection";
 import StruggleToFocusSec from "@/components/StruggleAndNoWorriesSection";
+import TestimonialSection from "@/components/TestimonialSection";
 import VideoSection from "@/components/VideoSection";
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <StruggleToFocusSec />
       <CourseDesignSection />
       <CourseSection />
+      <TestimonialSection />
     </main>
   );
 }
