@@ -2,6 +2,7 @@ import AppNavbar from "@/components/AppNavbar";
 import BannerSec from "@/components/Banner";
 import CourseDesignSection from "@/components/CourseDesignSec";
 import CourseSection from "@/components/CourseSection";
+import PricingSection from "@/components/PricingSection";
 import StruggleToFocusSec from "@/components/StruggleAndNoWorriesSection";
 import TestimonialSection from "@/components/TestimonialSection";
 import VideoSection from "@/components/VideoSection";
@@ -15,6 +16,7 @@ export default function Home() {
       <CourseDesignSection />
       <CourseSection />
       <TestimonialSection />
+      <PricingSection />
     </main>
   );
 }

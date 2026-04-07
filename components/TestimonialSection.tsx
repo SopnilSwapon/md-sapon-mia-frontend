@@ -6,6 +6,7 @@ import { Navigation } from "swiper/modules";
 import { useRef } from "react";
 import "swiper/css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import GradientBorderButton from "./GradientBorderButton";
 
 export default function TestimonialSection() {
   const prevRef = useRef(null);
@@ -41,6 +42,9 @@ export default function TestimonialSection() {
 
   return (
     <section className="bg-black text-white py-24 px-6">
+      <div className="flex justify-center mb-8">
+        <GradientBorderButton>🔵 &nbsp;Testimonials</GradientBorderButton>
+      </div>
       <div className="max-w-6xl mx-auto">
         {/* 🔥 TOP ROW */}
         <h2 className="text-4xl text-center mb-26 font-semibold text-gray-200">
