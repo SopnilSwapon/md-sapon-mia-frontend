@@ -8,7 +8,7 @@ This project focuses on **clean UI, reusable components, and responsive design**
 
 ## 🚀 Live Demo :
 
-👉 https://md-sapon-mia-frontend.vercel.app/
+👉 https://md-sapon-mia-frontend-37h2.vercel.app/
 
 ## ✨ Features
 
@@ -121,7 +121,7 @@ npx shadcn@latest add accordion button card
 
 ## 🚀 Live Demo :
 
-👉 https://md-sapon-mia-frontend.vercel.app/
+👉 https://md-sapon-mia-frontend-37h2.vercel.app/
 
 ---
 
