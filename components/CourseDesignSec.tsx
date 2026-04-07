@@ -1,4 +1,5 @@
 import Image from "next/image";
+import GradientBorderButton from "./GradientBorderButton";
 
 export default function CourseDesign() {
   const items = [
@@ -21,35 +22,11 @@ export default function CourseDesign() {
   ];
 
   return (
-    <section className="bg-[#0a0a0a] py-16 px-6">
+    <section className="py-16 px-6">
       <div className="flex justify-center mb-8">
-        <div className="relative inline-block rounded-md  mb-6 p-[1.5px] overflow-hidden  transition">
-          {/* animated border */}
-          <div
-            className="absolute inset-0 rounded-md border-move opacity-80 group-hover:opacity-100"
-            style={{
-              background:
-                "linear-gradient(90deg, #2466F2, rgba(255,255,255,0.25), #2466F2)",
-              backgroundSize: "200% 100%",
-            }}
-          />
-
-          {/* soft glow */}
-          <div
-            className="absolute inset-0 rounded-md blur-[6px] opacity-40 group-hover:opacity-70 transition"
-            style={{
-              background:
-                "linear-gradient(90deg, #2466F2, transparent, #2466F2)",
-              backgroundSize: "200% 100%",
-              animation: "borderMove 6s linear infinite",
-            }}
-          />
-
-          {/* inner content */}
-          <div className="relative px-4 py-2 text-[14px] font-medium rounded-md bg-[#171B21]/95 text-gray-200 backdrop-blur">
-            🔵 The Deep Work Blueprint
-          </div>
-        </div>
+        <GradientBorderButton>
+          🔵 &nbsp; The Deep Work Blueprint
+        </GradientBorderButton>
       </div>
       <h2 className="text-white text-2xl font-medium text-center leading-snug max-w-xs mx-auto mb-28">
         A self-paced, results-driven course designed to help you
