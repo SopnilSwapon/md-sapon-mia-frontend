@@ -1,5 +1,6 @@
 import AppNavbar from "@/components/AppNavbar";
 import BannerSec from "@/components/Banner";
+import CourseDesignSection from "@/components/CourseDesignSec";
 import StruggleToFocusSec from "@/components/StruggleAndNoWorriesSection";
 import VideoSection from "@/components/VideoSection";
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <BannerSec />
       <VideoSection />
       <StruggleToFocusSec />
+      <CourseDesignSection />
     </main>
   );
 }
