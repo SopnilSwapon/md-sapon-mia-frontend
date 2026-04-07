@@ -1,6 +1,6 @@
 import AppNavbar from "@/components/AppNavbar";
 import BannerSec from "@/components/Banner";
-import StruggleToFocusSec from "@/components/StruggleToFocus";
+import StruggleToFocusSec from "@/components/StruggleAndNoWorriesSection";
 import VideoSection from "@/components/VideoSection";
 export default function Home() {
   return (
