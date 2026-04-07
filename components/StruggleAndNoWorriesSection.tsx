@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function StruggleAndNoWorriesSection() {
   return (
-    <section className="bg-black text-white py-24 px-6">
+    <section className="bg-black text-white py-24 px-4 md:px-6 ">
       {/* Struggle to focus section */}
       <div className="max-w-6xl mx-auto text-center">
         <div className="relative inline-block rounded-md  mb-6 p-[1.5px] overflow-hidden group transition">
@@ -32,7 +32,7 @@ export default function StruggleAndNoWorriesSection() {
             🔵 Are Distractions Holding You Back?
           </div>
         </div>
-        {/* 🔥 Heading */}
+        {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-semibold leading-tight text-gray-300">
           If you struggle to focus, feel overwhelmed <br /> by end
           <span className="text-gray-500">
@@ -42,34 +42,31 @@ export default function StruggleAndNoWorriesSection() {
           </span>
         </h2>
 
-        {/* 🔥 Top small images */}
-        <div className="flex justify-center gap-4 mt-10">
+        {/*  Struggling images */}
+        <div className="flex justify-center overflow-x-hidden gap-2 md:gap-4 mt-10 ">
           <Image
             src="/images/strugle1.png"
-            alt=""
+            alt="struggle image 1"
             width={120}
-            height={120}
-            className="rounded-xl object-cover"
+            height={118}
           />
           <Image
             src="/images/strugle2.png"
-            alt=""
+            alt="struggle image 2"
             width={120}
-            height={120}
-            className="rounded-xl object-cover"
+            height={118}
           />
           <Image
             src="/images/strugle3.png"
-            alt=""
+            alt="struggle image 3"
             width={120}
-            height={120}
-            className="rounded-xl object-cover"
+            height={118}
           />
         </div>
       </div>
 
       {/* No worries section */}
-      <div className="max-w-6xl mx-auto mt-20 grid md:grid-cols-2 gap-8">
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="rounded-2xl hidden md:block overflow-hidden">
           <Image
             src="/images/no-worries1.png"
@@ -80,11 +77,10 @@ export default function StruggleAndNoWorriesSection() {
           />
         </div>
 
-        {/* Right card */}
         <div className="bg-[#0f141a] rounded-2xl p-6 relative">
           {/* Top badge */}
           <div className="flex justify-between items-center mb-6">
-            <div className="relative inline-block rounded-md  mb-6 p-[1.5px] overflow-hidden group transition">
+            <div className="relative inline-block rounded-md p-[1.5px] overflow-hidden group transition">
               {/* animated border */}
               <div
                 className="relative md:absolute inset-0 rounded-md border-move opacity-80 group-hover:opacity-100"
@@ -113,13 +109,12 @@ export default function StruggleAndNoWorriesSection() {
             </div>
 
             {/* avatars */}
-            <div className="flex -space-x-3">
+            <div>
               <Image
                 src="/images/no-worries-group.png"
                 width={128}
                 height={100}
-                className="rounded-full border border-black"
-                alt=""
+                alt="No worries group image"
               />
             </div>
           </div>
@@ -139,7 +134,7 @@ export default function StruggleAndNoWorriesSection() {
           </div>
 
           {/* right side vertical images */}
-          <div className="relative sm:absolute sm:right-4 md:bottom-8 justify-center flex flex-row sm:flex-col gap-3">
+          <div className="relative sm:absolute sm:right-4 sm:bottom-8 justify-center flex flex-row md:flex-col gap-3">
             <Image
               src="/images/no-worries1.png"
               width={70}
